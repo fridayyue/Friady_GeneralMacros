@@ -7,16 +7,15 @@
 #
 
 Pod::Spec.new do |s|
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-	s.name         = "Friady_GeneralMacros"
-  s.version      = "0.0.1"
-  s.summary      = "general macros for iOS"
-  s.homepage     = "https://github.com/fridayyue/Friady_GeneralMacros"
-  s.license      = "MIT"
-  s.author             = { "yueFriday" => "yuefriday@163.com" }
-  s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/fridayyue/Friady_GeneralMacros.git", :tag => "0.0.1" }
-  s.source_files  = "Friday_General", "Friday_GeneralMacros/**/*.{h,m}"
-  s.framework  = "UIKit"
+  s.license   		= "MIT (example)"
+	s.name      		= "Friday_GeneralMacros"
+  s.version      	= "0.0.1"
+  s.summary      	= "general macros for iOS"
+  s.homepage     	= "https://github.com/fridayyue/Friady_GeneralMacros"
+  s.license      	= "MIT"
+  s.author      	= { "yueFriday" => "yuefriday@163.com" }
+  s.platform     	= :ios, "7.0"
+  s.source       	= { :git => "https://github.com/fridayyue/Friady_GeneralMacros.git", :tag => "0.0.1" }
+  s.source_files 	= "Friday_GeneralMacros", "Friday_General/Friday_GeneralMacros/**/*.{h,m}"
+  s.framework  		= "UIKit"
 end
