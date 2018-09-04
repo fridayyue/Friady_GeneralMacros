@@ -11,21 +11,74 @@
 #ifndef Friday_UIMacros_h
 #define Friday_UIMacros_h
 
+#pragma mark - judge
+/**
+ 判断设备是否是横屏
+ */
+#define M_UILanspace    ([UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeLeft || [UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeRight)
+/**
+ 判断是否是ipad设备
+ */
+#define M_UIIpad        ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+/**
+ 判断是否是iPhone设备
+ */
+#define M_UIIphone      ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+/**
+ 是否是4、4s的设备（指的是屏幕尺寸）
+ */
+#define M_UISize4       (M_UIIphone && M_UIScreenHeight < 568.0)
+/**
+ 是否是5、5s、SE的设备（指的是屏幕尺寸）
+ */
+#define M_UISize5       (M_UIIphone && M_UIScreenHeight == 568.0)
+/**
+ 是否是6、6s、7的设备（指的是屏幕尺寸）
+ */
+#define M_UISize6       (M_UIIphone && M_UIScreenHeight == 667.0)
+/**
+ 是否是6、6s、7PLUS的设备（指的是屏幕尺寸）
+ */
+#define M_UIPlus        (M_UIIphone && M_UIScreenHeight == 736.0 || M_UIScreenWidth == 736.0) // Both orientations
+/**
+ 是否是X的设备（指的是屏幕尺寸）
+ */
+#define M_UIX           (M_UIIphone && M_UIScreenHeight == 812.0 || M_UIScreenWidth == 375.0)
+/*未完待续。。。谁知道苹果公司会继续出什么尺寸设备*/
 #pragma mark - Size
 /**
  获取屏幕的宽度
 
  @return 屏幕宽
  */
-#define M_ScreenWidth   [UIScreen mainScreen].bounds.size.width
+#define M_UIScreenWidth   [UIScreen mainScreen].bounds.size.width
 
 /**
  获取屏幕高度
 
  @return 屏幕高
  */
-#define M_ScreenHeight   [UIScreen mainScreen].bounds.size.height
+#define M_UIScreenHeight   [UIScreen mainScreen].bounds.size.height
 
+/**
+ 状态栏高度 这里的x状态栏拉高到44 为了适配
+ */
+#define M_UIStatusBar           M_UIX ? 44 : 20
+
+/**
+ NavgationBar的高度
+ */
+#define M_UINavgationBarHeight  44
+
+/**
+ 传统页面顶部NavgationBar和StatusBar的高度已经对X尺寸的设备做了适配
+ */
+#define M_UITopBarHeight        M_UINavgationBarHeight + M_UIStatusBar
+
+/**
+ 传统地步tabbar的高度 实际是49+1 有1像素的阴影线
+ */
+#define M_UITabbarHeight        50
 /**
  获取某一View的宽
 
@@ -91,6 +144,18 @@
  */
 #define M_ViewCenterY(OneView,Y)   OneView.center = CGPointMake(OneView.center.x, Y)
 
+#pragma mark - Layer
+
+/**
+ 设置view的圆角，描边宽度，描边颜色 描边颜色小于0.01颜色和描边不起作用
+ */
+#define M_ViewBorderRadius(View, Radius, BWidth, BColor)\
+        [View.layer setMasksToBounds:YES];\
+        [View.layer setCornerRadius:(Radius)];\
+        if(BWidth > 0.01){\
+        [View.layer setBorderWidth:(BWidth)];\
+        [View.layer setBorderColor:[BColor CGColor]]}
+
 #pragma mark - Color
 /**
  根据RGB值来获取颜色 默认透明度为1
@@ -129,4 +194,9 @@
  @return UIcolor类型颜色
  */
 #define M_ColorHexA(Hex,Alpha) ([UIColor colorWithRed:((float)((Hex & 0xFF0000) >> 16))/255.0 green:((float)((Hex & 0xFF00) >> 8))/255.0 blue:((float)(Hex & 0xFF))/255.0 alpha:Alpha])
+
+/**
+ 随机获取到一个颜色
+ */
+#define  M_ColorRandomC M_ColorRGB(arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0)
 #endif /* Friday_UIMacros_h */

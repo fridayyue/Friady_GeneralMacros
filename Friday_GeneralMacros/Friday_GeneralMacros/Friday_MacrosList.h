@@ -22,4 +22,6 @@
          2.
  */
 #import "Friday_Function.h"
+/*设备系统相关*/
+#import "Friday_DeviceMacros.h"
 #endif /* Friday_MacrosList_h */

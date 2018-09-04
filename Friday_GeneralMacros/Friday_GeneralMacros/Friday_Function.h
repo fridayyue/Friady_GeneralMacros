@@ -26,4 +26,27 @@
     #define M_DEBUG    0
 #endif
 
+/**
+ 弱引用 可以直接使用weakself.
+ */
+#define M_FunWeakSelf(type)     __weak typeof(type) weak##type = type;
+#define M_FunStrongSelf(type)   __strong typeof(type) type = weak##type;
+
+/**
+ GCD OnceBlock  只运行一次
+ */
+#define M_FunGCDOnceBlock(onceBlock) static dispatch_once_t onceToken; dispatch_once(&onceToken, onceBlock);
+
+
+/**
+ GCD 获取Main线程上运行
+ */
+#define M_FunGCDMainBlock(mainQueueBlock) dispatch_async(dispatch_get_main_queue(), mainQueueBlock);
+
+
+/**
+ GCD 开启异步线程
+ */
+#define M_FunGCDAsyncGlobal(globalQueueBlock) dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), globalQueueBlock);
+
 #endif /* Friday_Function_h */

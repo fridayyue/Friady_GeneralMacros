@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1136896213EDA60005B8A56 /* Friday_DeviceMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_DeviceMacros.h; sourceTree = "<group>"; };
 		D1BD6A1F213E8A3D00F2E503 /* Friday_GeneralMacros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friday_GeneralMacros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BD6A22213E8A3D00F2E503 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1BD6A23213E8A3D00F2E503 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 				D1BD6A39213E8A5E00F2E503 /* Friday_MacrosList.h */,
 				D1BD6A3A213E8A5E00F2E503 /* Friday_UIMacros.h */,
 				D1BD6A3B213E8A5E00F2E503 /* Friday_Function.h */,
+				D1136896213EDA60005B8A56 /* Friday_DeviceMacros.h */,
 			);
 			path = Friday_GeneralMacros;
 			sourceTree = "<group>";

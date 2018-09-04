@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Friday_MacrosList.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    M_FunWeakSelf(self);
+    M_FunGCDOnceBlock(^{
+        M_FunGCDAsyncGlobal(^{
+            M_LogStr(weakself.view);
+            M_FunGCDMainBlock(^{
+                M_LogFunc(self);
+            });
+        });
+    });
 }
 
 
