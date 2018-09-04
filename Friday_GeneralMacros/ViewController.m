@@ -1,13 +1,12 @@
 //
 //  ViewController.m
-//  General
+//  Friday_GeneralMacros
 //
-//  Created by Friday on 2018/8/29.
-//  Copyright © 2018年 Friday. All rights reserved.
+//  Created by 岳腾飞 on 2018/9/4.
+//  Copyright © 2018年 yueFriday. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "Friday_MacrosList.h"
 
 @interface ViewController ()
 
@@ -17,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    M_LogFunc(self);
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 

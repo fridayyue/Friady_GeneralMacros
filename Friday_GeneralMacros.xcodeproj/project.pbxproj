@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D1B120872136BFE100D6AE54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B120862136BFE100D6AE54 /* AppDelegate.m */; };
-		D1B1208A2136BFE100D6AE54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B120892136BFE100D6AE54 /* ViewController.m */; };
-		D1B1208D2136BFE100D6AE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B1208B2136BFE100D6AE54 /* Main.storyboard */; };
-		D1B1208F2136BFE400D6AE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B1208E2136BFE400D6AE54 /* Assets.xcassets */; };
-		D1B120922136BFE400D6AE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B120902136BFE400D6AE54 /* LaunchScreen.storyboard */; };
-		D1B120952136BFE400D6AE54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B120942136BFE400D6AE54 /* main.m */; };
+		D1BD6A24213E8A3D00F2E503 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD6A23213E8A3D00F2E503 /* AppDelegate.m */; };
+		D1BD6A27213E8A3D00F2E503 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD6A26213E8A3D00F2E503 /* ViewController.m */; };
+		D1BD6A2A213E8A3D00F2E503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6A28213E8A3D00F2E503 /* Main.storyboard */; };
+		D1BD6A2C213E8A3E00F2E503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6A2B213E8A3E00F2E503 /* Assets.xcassets */; };
+		D1BD6A2F213E8A3E00F2E503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6A2D213E8A3E00F2E503 /* LaunchScreen.storyboard */; };
+		D1BD6A32213E8A3E00F2E503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD6A31213E8A3E00F2E503 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D1B120822136BFE100D6AE54 /* General.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = General.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1B120852136BFE100D6AE54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D1B120862136BFE100D6AE54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D1B120882136BFE100D6AE54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D1B120892136BFE100D6AE54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D1B1208C2136BFE100D6AE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1B1208E2136BFE400D6AE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D1B120912136BFE400D6AE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D1B120932136BFE400D6AE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1B120942136BFE400D6AE54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D1B1209C2136C11C00D6AE54 /* Friday_MacrosList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_MacrosList.h; sourceTree = "<group>"; };
-		D1B1209D2136C35300D6AE54 /* Friday_UIMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_UIMacros.h; sourceTree = "<group>"; };
-		D1B1209E2136CF0500D6AE54 /* Friday_Function.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_Function.h; sourceTree = "<group>"; };
+		D1BD6A1F213E8A3D00F2E503 /* Friday_GeneralMacros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friday_GeneralMacros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BD6A22213E8A3D00F2E503 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1BD6A23213E8A3D00F2E503 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1BD6A25213E8A3D00F2E503 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1BD6A26213E8A3D00F2E503 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1BD6A29213E8A3D00F2E503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1BD6A2B213E8A3E00F2E503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1BD6A2E213E8A3E00F2E503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1BD6A30213E8A3E00F2E503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BD6A31213E8A3E00F2E503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1BD6A39213E8A5E00F2E503 /* Friday_MacrosList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friday_MacrosList.h; sourceTree = "<group>"; };
+		D1BD6A3A213E8A5E00F2E503 /* Friday_UIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friday_UIMacros.h; sourceTree = "<group>"; };
+		D1BD6A3B213E8A5E00F2E503 /* Friday_Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friday_Function.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D1B1207F2136BFE100D6AE54 /* Frameworks */ = {
+		D1BD6A1C213E8A3D00F2E503 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,45 +42,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D1B120792136BFE100D6AE54 = {
+		D1BD6A16213E8A3C00F2E503 = {
 			isa = PBXGroup;
 			children = (
-				D1B120842136BFE100D6AE54 /* Friday_General */,
-				D1B120832136BFE100D6AE54 /* Products */,
+				D1BD6A21213E8A3D00F2E503 /* Friday_GeneralMacros */,
+				D1BD6A20213E8A3D00F2E503 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D1B120832136BFE100D6AE54 /* Products */ = {
+		D1BD6A20213E8A3D00F2E503 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1B120822136BFE100D6AE54 /* General.app */,
+				D1BD6A1F213E8A3D00F2E503 /* Friday_GeneralMacros.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D1B120842136BFE100D6AE54 /* Friday_General */ = {
+		D1BD6A21213E8A3D00F2E503 /* Friday_GeneralMacros */ = {
 			isa = PBXGroup;
 			children = (
-				D1B120852136BFE100D6AE54 /* AppDelegate.h */,
-				D1B120862136BFE100D6AE54 /* AppDelegate.m */,
-				D1B120882136BFE100D6AE54 /* ViewController.h */,
-				D1B120892136BFE100D6AE54 /* ViewController.m */,
-				D1B1209B2136C0C800D6AE54 /* Friday_GeneralMacros */,
-				D1B1208B2136BFE100D6AE54 /* Main.storyboard */,
-				D1B1208E2136BFE400D6AE54 /* Assets.xcassets */,
-				D1B120902136BFE400D6AE54 /* LaunchScreen.storyboard */,
-				D1B120932136BFE400D6AE54 /* Info.plist */,
-				D1B120942136BFE400D6AE54 /* main.m */,
+				D1BD6A22213E8A3D00F2E503 /* AppDelegate.h */,
+				D1BD6A23213E8A3D00F2E503 /* AppDelegate.m */,
+				D1BD6A25213E8A3D00F2E503 /* ViewController.h */,
+				D1BD6A26213E8A3D00F2E503 /* ViewController.m */,
+				D1BD6A28213E8A3D00F2E503 /* Main.storyboard */,
+				D1BD6A38213E8A5E00F2E503 /* Friday_GeneralMacros */,
+				D1BD6A2B213E8A3E00F2E503 /* Assets.xcassets */,
+				D1BD6A2D213E8A3E00F2E503 /* LaunchScreen.storyboard */,
+				D1BD6A30213E8A3E00F2E503 /* Info.plist */,
+				D1BD6A31213E8A3E00F2E503 /* main.m */,
 			);
-			path = Friday_General;
+			path = Friday_GeneralMacros;
 			sourceTree = "<group>";
 		};
-		D1B1209B2136C0C800D6AE54 /* Friday_GeneralMacros */ = {
+		D1BD6A38213E8A5E00F2E503 /* Friday_GeneralMacros */ = {
 			isa = PBXGroup;
 			children = (
-				D1B1209C2136C11C00D6AE54 /* Friday_MacrosList.h */,
-				D1B1209D2136C35300D6AE54 /* Friday_UIMacros.h */,
-				D1B1209E2136CF0500D6AE54 /* Friday_Function.h */,
+				D1BD6A39213E8A5E00F2E503 /* Friday_MacrosList.h */,
+				D1BD6A3A213E8A5E00F2E503 /* Friday_UIMacros.h */,
+				D1BD6A3B213E8A5E00F2E503 /* Friday_Function.h */,
 			);
 			path = Friday_GeneralMacros;
 			sourceTree = "<group>";
@@ -88,38 +88,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1B120812136BFE100D6AE54 /* General */ = {
+		D1BD6A1E213E8A3D00F2E503 /* Friday_GeneralMacros */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1B120982136BFE400D6AE54 /* Build configuration list for PBXNativeTarget "General" */;
+			buildConfigurationList = D1BD6A35213E8A3E00F2E503 /* Build configuration list for PBXNativeTarget "Friday_GeneralMacros" */;
 			buildPhases = (
-				D1B1207E2136BFE100D6AE54 /* Sources */,
-				D1B1207F2136BFE100D6AE54 /* Frameworks */,
-				D1B120802136BFE100D6AE54 /* Resources */,
+				D1BD6A1B213E8A3D00F2E503 /* Sources */,
+				D1BD6A1C213E8A3D00F2E503 /* Frameworks */,
+				D1BD6A1D213E8A3D00F2E503 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = General;
-			productName = General;
-			productReference = D1B120822136BFE100D6AE54 /* General.app */;
+			name = Friday_GeneralMacros;
+			productName = Friday_GeneralMacros;
+			productReference = D1BD6A1F213E8A3D00F2E503 /* Friday_GeneralMacros.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D1B1207A2136BFE100D6AE54 /* Project object */ = {
+		D1BD6A17213E8A3C00F2E503 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "岳腾飞";
+				ORGANIZATIONNAME = yueFriday;
 				TargetAttributes = {
-					D1B120812136BFE100D6AE54 = {
+					D1BD6A1E213E8A3D00F2E503 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = D1B1207D2136BFE100D6AE54 /* Build configuration list for PBXProject "General" */;
+			buildConfigurationList = D1BD6A1A213E8A3C00F2E503 /* Build configuration list for PBXProject "Friday_GeneralMacros" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,55 +127,55 @@
 				en,
 				Base,
 			);
-			mainGroup = D1B120792136BFE100D6AE54;
-			productRefGroup = D1B120832136BFE100D6AE54 /* Products */;
+			mainGroup = D1BD6A16213E8A3C00F2E503;
+			productRefGroup = D1BD6A20213E8A3D00F2E503 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D1B120812136BFE100D6AE54 /* General */,
+				D1BD6A1E213E8A3D00F2E503 /* Friday_GeneralMacros */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D1B120802136BFE100D6AE54 /* Resources */ = {
+		D1BD6A1D213E8A3D00F2E503 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B120922136BFE400D6AE54 /* LaunchScreen.storyboard in Resources */,
-				D1B1208F2136BFE400D6AE54 /* Assets.xcassets in Resources */,
-				D1B1208D2136BFE100D6AE54 /* Main.storyboard in Resources */,
+				D1BD6A2F213E8A3E00F2E503 /* LaunchScreen.storyboard in Resources */,
+				D1BD6A2C213E8A3E00F2E503 /* Assets.xcassets in Resources */,
+				D1BD6A2A213E8A3D00F2E503 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D1B1207E2136BFE100D6AE54 /* Sources */ = {
+		D1BD6A1B213E8A3D00F2E503 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B1208A2136BFE100D6AE54 /* ViewController.m in Sources */,
-				D1B120952136BFE400D6AE54 /* main.m in Sources */,
-				D1B120872136BFE100D6AE54 /* AppDelegate.m in Sources */,
+				D1BD6A27213E8A3D00F2E503 /* ViewController.m in Sources */,
+				D1BD6A32213E8A3E00F2E503 /* main.m in Sources */,
+				D1BD6A24213E8A3D00F2E503 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D1B1208B2136BFE100D6AE54 /* Main.storyboard */ = {
+		D1BD6A28213E8A3D00F2E503 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D1B1208C2136BFE100D6AE54 /* Base */,
+				D1BD6A29213E8A3D00F2E503 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D1B120902136BFE400D6AE54 /* LaunchScreen.storyboard */ = {
+		D1BD6A2D213E8A3E00F2E503 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D1B120912136BFE400D6AE54 /* Base */,
+				D1BD6A2E213E8A3E00F2E503 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D1B120962136BFE400D6AE54 /* Debug */ = {
+		D1BD6A33213E8A3E00F2E503 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Debug;
 		};
-		D1B120972136BFE400D6AE54 /* Release */ = {
+		D1BD6A34213E8A3E00F2E503 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,36 +293,38 @@
 			};
 			name = Release;
 		};
-		D1B120992136BFE400D6AE54 /* Debug */ = {
+		D1BD6A36213E8A3E00F2E503 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = General/Info.plist;
+				INFOPLIST_FILE = Friday_GeneralMacros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.General.General;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.General.Friday-GeneralMacros";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D1B1209A2136BFE400D6AE54 /* Release */ = {
+		D1BD6A37213E8A3E00F2E503 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = General/Info.plist;
+				INFOPLIST_FILE = Friday_GeneralMacros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.General.General;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.General.Friday-GeneralMacros";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,25 +334,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1B1207D2136BFE100D6AE54 /* Build configuration list for PBXProject "General" */ = {
+		D1BD6A1A213E8A3C00F2E503 /* Build configuration list for PBXProject "Friday_GeneralMacros" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1B120962136BFE400D6AE54 /* Debug */,
-				D1B120972136BFE400D6AE54 /* Release */,
+				D1BD6A33213E8A3E00F2E503 /* Debug */,
+				D1BD6A34213E8A3E00F2E503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1B120982136BFE400D6AE54 /* Build configuration list for PBXNativeTarget "General" */ = {
+		D1BD6A35213E8A3E00F2E503 /* Build configuration list for PBXNativeTarget "Friday_GeneralMacros" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1B120992136BFE400D6AE54 /* Debug */,
-				D1B1209A2136BFE400D6AE54 /* Release */,
+				D1BD6A36213E8A3E00F2E503 /* Debug */,
+				D1BD6A37213E8A3E00F2E503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D1B1207A2136BFE100D6AE54 /* Project object */;
+	rootObject = D1BD6A17213E8A3C00F2E503 /* Project object */;
 }
