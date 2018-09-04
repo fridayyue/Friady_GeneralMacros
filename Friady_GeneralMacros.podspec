@@ -9,13 +9,13 @@
 Pod::Spec.new do |s|
 	s.license             = "MIT (example)"
 	s.name                = "Friady_GeneralMacros"
-  s.version             = "0.0.1"
+  s.version             = "0.0.2"
   s.summary             = "general macros for iOS"
   s.homepage            = "https://github.com/fridayyue/Friady_GeneralMacros"
   s.license             = "MIT"
   s.author              = { "yueFriday" => "yuefriday@163.com" }
   s.platform            = :ios, "7.0"
-  s.source              = { :git => "https://github.com/fridayyue/Friady_GeneralMacros.git", :tag => "0.0.1" }
+  s.source              = { :git => "https://github.com/fridayyue/Friady_GeneralMacros.git", :tag => "0.0.2" }
   s.source_files        = "Friday_GeneralMacros", "Friday_General/Friday_GeneralMacros/**/*.{h,m}"
   s.framework           = "UIKit"
 end
