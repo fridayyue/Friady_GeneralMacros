@@ -1,10 +1,7 @@
-//
-//  Friday_MacrosList.h
-//  General
-//
-//  Created by Friday on 2018/8/29.
-//  Copyright © 2018年 Friday. All rights reserved.
-//
+/*
+    github地址：https://github.com/fridayyue/Friady_GeneralMacros
+    有什么建议意见可以联系我：yuefriday@163.com
+ */
 /*
     这里将引入宏列表，分类引入各种宏
  */

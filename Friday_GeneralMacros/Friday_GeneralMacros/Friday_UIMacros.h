@@ -2,8 +2,8 @@
 //  Friday_UIMacros.h
 //  General
 //
-//  Created by 岳腾飞 on 2018/8/29.
-//  Copyright © 2018年 岳腾飞. All rights reserved.
+//  Created by yuefriday on 2018/8/29.
+//  Copyright © 2018年 yuefriday. All rights reserved.
 //
 /*
     UI相关的宏

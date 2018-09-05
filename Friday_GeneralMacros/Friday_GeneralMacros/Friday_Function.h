@@ -2,8 +2,8 @@
 //  Friday_Function.h
 //  General
 //
-//  Created by 岳腾飞 on 2018/8/29.
-//  Copyright © 2018年 岳腾飞. All rights reserved.
+//  Created by yuefriday on 2018/8/29.
+//  Copyright © 2018年 yuefriday. All rights reserved.
 //
 
 /*函数宏 一些常用函数做的宏*/

@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  Friday_GeneralMacros
 //
-//  Created by 岳腾飞 on 2018/9/4.
+//  Created by yuefriday on 2018/9/4.
 //  Copyright © 2018年 yueFriday. All rights reserved.
 //
 
