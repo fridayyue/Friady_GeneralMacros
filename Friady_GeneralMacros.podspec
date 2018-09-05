@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.author              = { "yueFriday" => "yuefriday@163.com" }
   s.platform            = :ios, "7.0"
   s.source              = { :git => "https://github.com/fridayyue/Friady_GeneralMacros.git", :tag => "0.0.2" }
-  s.source_files        = "Friday_GeneralMacros", "Friday_General/Friday_GeneralMacros/**/*.{h,m}"
+  s.source_files        = "Friday_GeneralMacros", "Friday_GeneralMacros/Friday_GeneralMacros/**/*.{h,m}"
   s.framework           = "UIKit"
 end
