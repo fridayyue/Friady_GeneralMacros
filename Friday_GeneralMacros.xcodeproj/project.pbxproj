@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D113689A213FB45E005B8A56 /* Friday_Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = D1136899213FB45E005B8A56 /* Friday_Judge.m */; };
 		D1BD6A24213E8A3D00F2E503 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD6A23213E8A3D00F2E503 /* AppDelegate.m */; };
 		D1BD6A27213E8A3D00F2E503 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BD6A26213E8A3D00F2E503 /* ViewController.m */; };
 		D1BD6A2A213E8A3D00F2E503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6A28213E8A3D00F2E503 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		D1136896213EDA60005B8A56 /* Friday_DeviceMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_DeviceMacros.h; sourceTree = "<group>"; };
+		D1136898213FB45E005B8A56 /* Friday_Judge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_Judge.h; sourceTree = "<group>"; };
+		D1136899213FB45E005B8A56 /* Friday_Judge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friday_Judge.m; sourceTree = "<group>"; };
 		D1BD6A1F213E8A3D00F2E503 /* Friday_GeneralMacros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friday_GeneralMacros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BD6A22213E8A3D00F2E503 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1BD6A23213E8A3D00F2E503 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1136897213FB1E3005B8A56 /* Friday_Judge */ = {
+			isa = PBXGroup;
+			children = (
+				D1136898213FB45E005B8A56 /* Friday_Judge.h */,
+				D1136899213FB45E005B8A56 /* Friday_Judge.m */,
+			);
+			path = Friday_Judge;
+			sourceTree = "<group>";
+		};
 		D1BD6A16213E8A3C00F2E503 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +78,7 @@
 				D1BD6A23213E8A3D00F2E503 /* AppDelegate.m */,
 				D1BD6A25213E8A3D00F2E503 /* ViewController.h */,
 				D1BD6A26213E8A3D00F2E503 /* ViewController.m */,
+				D1136897213FB1E3005B8A56 /* Friday_Judge */,
 				D1BD6A28213E8A3D00F2E503 /* Main.storyboard */,
 				D1BD6A38213E8A5E00F2E503 /* Friday_GeneralMacros */,
 				D1BD6A2B213E8A3E00F2E503 /* Assets.xcassets */,
@@ -159,6 +172,7 @@
 			files = (
 				D1BD6A27213E8A3D00F2E503 /* ViewController.m in Sources */,
 				D1BD6A32213E8A3E00F2E503 /* main.m in Sources */,
+				D113689A213FB45E005B8A56 /* Friday_Judge.m in Sources */,
 				D1BD6A24213E8A3D00F2E503 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
