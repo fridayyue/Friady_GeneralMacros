@@ -184,7 +184,7 @@
  @param Hex 哈希色值
  @return UIcolor类型颜色
  */
-#define M_ColorHex(Hex)  M_ColorHexA(Hex,Alpha)
+#define M_ColorHex(Hex)  M_ColorHexA(Hex,1)
 
 /**
  根据哈希色值来获取颜色

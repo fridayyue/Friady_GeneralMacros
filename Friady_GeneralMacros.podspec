@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 	s.license             = "MIT (example)"
 	s.name                = "Friady_GeneralMacros"
-  s.version             = "0.0.3"
+  s.version             = "0.0.5"
   s.summary             = "general macros for iOS"
   s.homepage            = "https://github.com/fridayyue/Friady_GeneralMacros"
   s.license             = "MIT"
