@@ -33,6 +33,7 @@
 		D1BD6A39213E8A5E00F2E503 /* Friday_MacrosList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friday_MacrosList.h; sourceTree = "<group>"; };
 		D1BD6A3A213E8A5E00F2E503 /* Friday_UIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friday_UIMacros.h; sourceTree = "<group>"; };
 		D1BD6A3B213E8A5E00F2E503 /* Friday_Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friday_Function.h; sourceTree = "<group>"; };
+		D1E9A5DA229E86A800623390 /* Friday_JudgeMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_JudgeMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 				D1BD6A3A213E8A5E00F2E503 /* Friday_UIMacros.h */,
 				D1BD6A3B213E8A5E00F2E503 /* Friday_Function.h */,
 				D1136896213EDA60005B8A56 /* Friday_DeviceMacros.h */,
+				D1E9A5DA229E86A800623390 /* Friday_JudgeMacros.h */,
 			);
 			path = Friday_GeneralMacros;
 			sourceTree = "<group>";
