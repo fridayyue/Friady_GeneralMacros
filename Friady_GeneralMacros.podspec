@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
  	s.license             = "MIT"
   	s.author              = { "yueFriday" => "yuefriday@163.com" }
   	s.platform            = :ios, "7.0"
-  	s.source              = { :git => "https://github.com/fridayyue/Friady_GeneralMacros.git", :tag => "0.0.5" }
+  	s.source              = { :git => "https://github.com/fridayyue/Friady_GeneralMacros.git", :tag => "0.0.6" }
   	s.source_files        = "Friday_GeneralMacros/Friday_GeneralMacros", "Friday_GeneralMacros/Friday_GeneralMacros/**/*.{h,m}"
   	s.framework           = "UIKit"
 end
